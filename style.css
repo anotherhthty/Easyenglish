@@ -1,0 +1,80 @@
+.container{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 190px;
+    background-color: #3B3B98;
+}
+.logo{
+    margin-left: 45px;
+}
+.menu ul button{
+    font-size: 25px;
+    width: 200px;
+    height: 32px;
+    border-radius:15px;
+    border: white;
+    transition-duration: 0.4s;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.menu ul button:hover{
+    background-color: white;
+    color: cyan;
+}
+.menu ul button:active{
+    box-shadow: 0 5px;
+    transform: translateY(4px);
+}
+.pic1{
+    margin-top: 70px; 
+}
+.pic1 a{
+    margin-left: 45px;
+}
+.text1{
+    font-size: 28px;
+    color: rgb(235, 174, 63);
+    font-family: 'Roboto Condensed', sans-sefif;
+    width: 880px;
+    margin-left: 220px;
+    text-align: center;
+    margin-top: 35px;
+}
+.pic2{
+    margin-top: 90px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 400px 700px;
+}
+.text2{
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-sefif;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 75px;
+}
+.pic3{
+    margin-top: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+    display: grid;
+    grid-template-columns: 700px 400px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid blue;
+}
+.text3{
+    width: 650px;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-sefif;
+    text-align: center;
+    margin-top: 60px;
+}
+.contacts{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-sefif;
+    margin-top: 20px;
+    margin-left: 900px;
+}
